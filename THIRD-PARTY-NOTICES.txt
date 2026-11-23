@@ -3,7 +3,7 @@ GAPWALK - Third-party notices
 This game includes the following third-party materials.
 
 1. Material Icons (icons: play_arrow, replay, skip_next, lightbulb, flag, star,
-   star_border, emoji_events, apps, keyboard, sports_esports)
+   star_border, emoji_events, apps, keyboard, sports_esports, lock)
    Copyright Google LLC
    https://github.com/google/material-design-icons
    License: Apache License 2.0 (full text in section A below)
