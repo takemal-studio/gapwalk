@@ -8,7 +8,7 @@ A top-down stealth maze game. Every stage is generated automatically and checked
 
 ![Solution replay: the route that is never seen](images/solution-replay.png)
 
-- Controls: WASD / arrow keys, or a gamepad (left stick). Esc / Start opens the menu.
+- Controls: WASD / arrow keys, a gamepad (left stick), or touch (drag anywhere on the screen). Esc / Start or the menu button at the top right opens the menu.
 - 500 stages in 50 levels.
 
 This repository contains only the built Web version (Unity WebGL).
