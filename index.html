@@ -31,7 +31,7 @@
     <canvas id="unity-canvas" tabindex="-1"></canvas>
     <div id="loading">LOADING<div id="loading-bar"><div id="loading-fill"></div></div></div>
     <div id="error"></div>
-    <script src="Build/d3d48a11eb6ff4fe8a79541b9526c744.loader.js"></script>
+    <script src="Build/2e049e98cefc9caf8320bfff6f8bade8.loader.js"></script>
     <script>
       var canvas = document.querySelector("#unity-canvas");
       var loading = document.querySelector("#loading");
@@ -57,13 +57,13 @@
 
       createUnityInstance(canvas, {
         arguments: [],
-        dataUrl: "Build/8eb159c26d232ae3d4e6c45bb959298b.data.unityweb",
+        dataUrl: "Build/9bf23463bd8bdec4f7f454a68bd9387c.data.unityweb",
         frameworkUrl: "Build/d25ba467e7a56ff6ad92506c6c01d2e2.framework.js.unityweb",
-        codeUrl: "Build/73e7b2e9838d6dfc5ab35c6175e4f34e.wasm.unityweb",
+        codeUrl: "Build/443345e51ada59d02e6a163f131e5a56.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "takemal-studio",
         productName: "GAPWALK",
-        productVersion: "1.0.3",
+        productVersion: "1.0.4",
         showBanner: function (message, type) { if (type === "error") showError(message); },
       }, function (progress) {
         fill.style.width = (100 * progress) + "%";
